@@ -1,0 +1,63 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form id="resume-form">
+        <h2>Fill in your details</h2>
+        <label for="email">Name:</label>
+        <input  class="label-line" type="text" id="phone-input" placeholder="Name" required />
+
+        
+        <label for="email">Email:</label>
+        <input  class="label-line" type="text" id="phone-input" placeholder="Email" required />
+
+
+        <label for="phone">Phone:</label>
+        <input  class="label-line" type="text" id="phone-input" placeholder="Phone" required />
+
+        <label for="education">Education:</label>
+        <input  class="label-line" type="text" id="education-input" placeholder="Education" required />
+
+        <label for="skills">Skills:</label>
+        <input  class="label-line" type="text" id="skills-input" placeholder="Skills" required />
+
+        <button type="submit" id="whatsapp-submit" style="margin-top: 25px;">Submit your Details on WhatsApp</button>
+        <button   id="edit-button" style="margin-top: 25px;">Edit</button>
+
+        <a href="https://wa.me/923172813709" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp Icon" class="whatsapp-icon">
+        </a>
+    </form>
+
+    <div id="dynamic-resume" class="resume hidden">
+        <h1 id="dynamic-name"></h1>
+        <p id="dynamic-email"></p>
+        <p id="dynamic-phone"></p>
+        <h2>Education</h2>
+        <p id="dynamic-education"></p>
+        <h2>Skills</h2>
+        <ul id="dynamic-skills"></ul>
+    </div>
+
+
+    
+
+     <script src="main.ts"></script> 
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+ 
